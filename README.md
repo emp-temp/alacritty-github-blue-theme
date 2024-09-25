@@ -1,5 +1,22 @@
-# github-blue-theme-for-alacritty
+# Alacritty Github Blue Theme
+Github Blue theme for alacritty
 
-This repository is an alacritty version of [github_blue](https://github.com/larxx/github-blue), a vscode theme that I personally love and use.
+![picture 0](images/print_colors_result.png)  
 
-Download and specify the file path in the import option of alacritty and it will be reflected.
+## Installation
+
+Clone the repository
+```
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/emp-temp/alacritty-github-blue-theme.git ~/.config/alacritty/themes/
+```
+
+Add an import to your alacritty.toml
+```
+import = [
+    "~/.config/alacritty/themes/alacritty-github-blue-theme/github_blue.toml"
+]
+```
+
+## License
+The project is available as open source under the terms of the [Apache License, Version 2.0](https://github.com/alacritty/alacritty-theme/blob/master/LICENSE)
